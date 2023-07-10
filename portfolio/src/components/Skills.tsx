@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="flex items-center flex-col mt-8 text-4xl font-semibold text-slate-700 shadow-md">
       SKILLS & INTERESTS
-      <div className="mt-8 p-4 grid grid-cols-5 gap-x-16 gap-y-4">
+      <div className="mt-8 mb-8 p-4 grid grid-cols-5 gap-x-16 gap-y-4">
         <Skillparse
           source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
           alt="The logo icon for HTML"

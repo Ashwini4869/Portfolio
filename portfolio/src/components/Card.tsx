@@ -13,7 +13,7 @@ const Card = ({
   project_link: string;
 }) => {
   return (
-    <div className="bg-white p-4 w-1/2 text-slate-700 font-sans">
+    <div className="bg-white p-4 w-1/2 text-slate-700 font-sans border-emerald-500 border-2 rounded-md">
       <Image
         width={500}
         height={500}
