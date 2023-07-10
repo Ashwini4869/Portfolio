@@ -2,6 +2,13 @@ import React from "react";
 import { ImLocation2 } from "react-icons/Im";
 import { GoMail } from "react-icons/go";
 import { BsTelephonePlusFill } from "react-icons/bs";
+import {
+  FaFacebookSquare,
+  FaTwitter,
+  FaTelegram,
+  FaLinkedin,
+  FaGithubSquare,
+} from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -25,8 +32,59 @@ const Contact = () => {
           <h1 className="mt-1">977-9844536313</h1>
         </div>
       </div>
-      {/* Links to Socials */}
-      <div></div>
+      <div className="flex items-center justify-end">
+        <div className="px-8 text-xl font-semibold">Connect With Me</div>
+        <div className="w-3/4 bg-emerald-600 h-1"></div>
+      </div>
+      {/* social links */}
+      <div className="flex justify-between px-8 w-3/4 self-center mt-4 mb-8">
+        {/* facebook */}
+        <a
+          href="https://www.facebook.com/ashwini.mandal.161"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+            <FaFacebookSquare size={28} />
+          </div>
+        </a>
+        {/* Twitter */}
+        <a
+          href="https://twitter.com/ashwini_1412"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+            <FaTwitter size={28} />
+          </div>
+        </a>
+        {/* Telegram */}
+        <a href="https://t.me/Ashwini3593" target="_blank" rel="noreferrer">
+          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+            <FaTelegram size={28} />
+          </div>
+        </a>
+        {/* linkedin */}
+        <a
+          href="https://www.linkedin.com/in/ashwini-mandal/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+            <FaLinkedin size={28} />
+          </div>
+        </a>
+        {/* github */}
+        <a
+          href="https://github.com/Ashwini4869"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+            <FaGithubSquare size={28} />
+          </div>
+        </a>
+      </div>
     </div>
   );
 };
