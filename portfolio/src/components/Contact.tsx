@@ -1,5 +1,5 @@
 import React from "react";
-import { ImLocation2 } from "react-icons/Im";
+import { ImLocation2 } from "react-icons/im";
 import { GoMail } from "react-icons/go";
 import { BsTelephonePlusFill } from "react-icons/bs";
 import {
