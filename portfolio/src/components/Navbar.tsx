@@ -15,33 +15,33 @@ const Navbar = () => {
         />
       </div>
       {/* links part */}
-      <div className="flex items-center font-semibold mr-6">
+      <div className="flex items-center font-semibold mr-6 text-slate-700">
         <Link
-          className="px-3 py-2 hover:bg-gray-800 hover:text-white rounded-full"
+          className="px-3 py-2 hover:bg-emerald-600 hover:text-white rounded-full"
           href={"#"}
         >
           Home
         </Link>
         <Link
-          className="px-3 py-2  hover:bg-gray-800  hover:text-white rounded-full"
+          className="px-3 py-2  hover:bg-emerald-600  hover:text-white rounded-full"
           href={"#"}
         >
           About
         </Link>
         <Link
-          className="px-3 py-2  hover:bg-gray-800 hover:text-white rounded-full"
+          className="px-3 py-2  hover:bg-emerald-600 hover:text-white rounded-full"
           href={"#"}
         >
           Skills
         </Link>
         <Link
-          className="px-3 py-2  hover:bg-gray-800 hover:text-white rounded-full"
+          className="px-3 py-2  hover:bg-emerald-600 hover:text-white rounded-full"
           href={"#"}
         >
           Projects
         </Link>
         <Link
-          className="px-3 py-2  hover:bg-gray-800 hover:text-white rounded-full"
+          className="px-3 py-2  hover:bg-emerald-600 hover:text-white rounded-full"
           href={"#"}
         >
           Contact
