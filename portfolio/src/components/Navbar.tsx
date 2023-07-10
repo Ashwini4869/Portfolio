@@ -6,7 +6,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <div
-      id="home"
+      id="/#home"
       className="border-black shadow-md w-full h-14 flex justify-between"
     >
       {/* //logo part */}
@@ -18,34 +18,34 @@ const Navbar = () => {
         />
       </div>
       {/* links part */}
-      <div className="flex items-center font-semibold mr-6 text-slate-700">
+      <div className="flex items-center w-1/3 justify-evenly font-semibold mr-6 text-slate-700">
         <Link
-          className="px-3 py-2 hover:bg-emerald-600 hover:text-white rounded-full"
-          href={"#home"}
+          className="px-3 py-2 hover:bg-emerald-600 hover:text-white rounded-full ease-in-out duration-300"
+          href="/#home"
         >
           Home
         </Link>
         <Link
-          className="px-3 py-2  hover:bg-emerald-600  hover:text-white rounded-full"
-          href={"#about"}
+          className="px-3 py-2  hover:bg-emerald-600  hover:text-white rounded-full ease-in-out duration-300"
+          href="/#about"
         >
           About
         </Link>
         <Link
-          className="px-3 py-2  hover:bg-emerald-600 hover:text-white rounded-full"
-          href={"#skills"}
+          className="px-3 py-2  hover:bg-emerald-600 hover:text-white rounded-full ease-in-out duration-300"
+          href="/#skills"
         >
           Skills
         </Link>
         <Link
-          className="px-3 py-2  hover:bg-emerald-600 hover:text-white rounded-full"
-          href={"#projects"}
+          className="px-3 py-2  hover:bg-emerald-600 hover:text-white rounded-full ease-in-out duration-300"
+          href="/#projects"
         >
           Projects
         </Link>
         <Link
-          className="px-3 py-2  hover:bg-emerald-600 hover:text-white rounded-full"
-          href={"#contact"}
+          className="px-3 py-2  hover:bg-emerald-600 hover:text-white rounded-full ease-in-out duration-300"
+          href="/#contact"
         >
           Contact
         </Link>

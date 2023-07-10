@@ -2,7 +2,7 @@ import React from "react";
 import { RiDownload2Fill } from "react-icons/ri";
 const Hero = () => {
   return (
-    <div id="about" className="h-screen flex items-center flex-col shadow-md">
+    <div id="about" className="pb-28 flex items-center flex-col shadow-md">
       <div className="mt-36 text-4xl text-slate-700 font-bold">
         Hi, I&apos;m <span className="text-emerald-600">Ashwini</span>
       </div>

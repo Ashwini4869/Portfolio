@@ -44,7 +44,7 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
+          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer ease-in duration-200 hover:bg-emerald-600 hover:text-white">
             <FaFacebookSquare size={28} />
           </div>
         </a>
@@ -54,13 +54,13 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
+          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer  ease-in duration-200 hover:bg-emerald-600 hover:text-white">
             <FaTwitter size={28} />
           </div>
         </a>
         {/* Telegram */}
         <a href="https://t.me/Ashwini3593" target="_blank" rel="noreferrer">
-          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
+          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer  ease-in duration-200 hover:bg-emerald-600 hover:text-white">
             <FaTelegram size={28} />
           </div>
         </a>
@@ -70,7 +70,7 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
+          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer  ease-in duration-200 hover:bg-emerald-600 hover:text-white">
             <FaLinkedin size={28} />
           </div>
         </a>
@@ -80,7 +80,7 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
+          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer  ease-in duration-200 hover:bg-emerald-600 hover:text-white">
             <FaGithubSquare size={28} />
           </div>
         </a>
