@@ -12,7 +12,7 @@ import {
 
 const Contact = () => {
   return (
-    <div className="text-slate-700 flex flex-col">
+    <div id="contact" className="text-slate-700 flex flex-col shadow-lg pb-4">
       <div className="flex items-center justify-end">
         <div className="px-8 text-xl font-semibold">Get In Touch</div>
         <div className="w-3/4 bg-emerald-600 h-1"></div>
@@ -44,7 +44,7 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
             <FaFacebookSquare size={28} />
           </div>
         </a>
@@ -54,13 +54,13 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
             <FaTwitter size={28} />
           </div>
         </a>
         {/* Telegram */}
         <a href="https://t.me/Ashwini3593" target="_blank" rel="noreferrer">
-          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
             <FaTelegram size={28} />
           </div>
         </a>
@@ -70,7 +70,7 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
             <FaLinkedin size={28} />
           </div>
         </a>
@@ -80,7 +80,7 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
             <FaGithubSquare size={28} />
           </div>
         </a>

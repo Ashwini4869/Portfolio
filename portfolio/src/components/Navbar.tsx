@@ -5,7 +5,10 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="border-black shadow-md w-full h-14 flex justify-between">
+    <div
+      id="home"
+      className="border-black shadow-md w-full h-14 flex justify-between"
+    >
       {/* //logo part */}
       <div>
         <Image
@@ -18,31 +21,31 @@ const Navbar = () => {
       <div className="flex items-center font-semibold mr-6 text-slate-700">
         <Link
           className="px-3 py-2 hover:bg-emerald-600 hover:text-white rounded-full"
-          href={"#"}
+          href={"#home"}
         >
           Home
         </Link>
         <Link
           className="px-3 py-2  hover:bg-emerald-600  hover:text-white rounded-full"
-          href={"#"}
+          href={"#about"}
         >
           About
         </Link>
         <Link
           className="px-3 py-2  hover:bg-emerald-600 hover:text-white rounded-full"
-          href={"#"}
+          href={"#skills"}
         >
           Skills
         </Link>
         <Link
           className="px-3 py-2  hover:bg-emerald-600 hover:text-white rounded-full"
-          href={"#"}
+          href={"#projects"}
         >
           Projects
         </Link>
         <Link
           className="px-3 py-2  hover:bg-emerald-600 hover:text-white rounded-full"
-          href={"#"}
+          href={"#contact"}
         >
           Contact
         </Link>

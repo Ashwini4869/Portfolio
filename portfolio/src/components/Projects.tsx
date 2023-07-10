@@ -4,7 +4,10 @@ import NN_front from "../../public/assets/NN_frontend.png";
 
 const Projects = () => {
   return (
-    <div className="mt-8 flex flex-col items-center mb-8 shadow-md">
+    <div
+      id="projects"
+      className="mt-8 flex flex-col items-center mb-8 shadow-md"
+    >
       <div className="text-4xl font-bold text-slate-700">PROJECTS</div>
       <div className="mt-4 mb-8 flex flex-col items-center">
         <Card
